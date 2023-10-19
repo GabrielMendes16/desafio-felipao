@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var salarioFornecido = window.prompt("Digite seu salario");
+        var imposto = " "
+        var salarioAReceber = resultadoDoValor(500)
+
+        if (salarioFornecido >= 0.00 && salarioFornecido <= 1100.00)
+            imposto = 5
+        console.log("Você vai receber " + salarioAReceber)
+
+
+        function resultadoDoValor(salarioFornecido) {
+            let calculoDoSalario = salarioFornecido * imposto / 100
+            return calculoDoSalario
+        }
+
+
+    </script>
+</body>
+
+</html>
+
+
+valor bruto do salário - percetual de imposto mediante ao sálario
++ adicional de beneficios

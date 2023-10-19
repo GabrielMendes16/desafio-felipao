@@ -17,6 +17,6 @@ if (experienciaDoHeroi === 0) {
     console.log(nomeDoHeroi + " Seu Herói é de Nível Ascendente");
 } else if (experienciaDoHeroi >= 9001 && experienciaDoHeroi <= 10000) {
     console.log(nomeDoHeroi + " Seu Herói é de Nível Imortal");
-} else if (experienciaDoHeroi >= 10001) {
+} else(experienciaDoHeroi >= 10001) 
     console.log(nomeDoHeroi + " Seu Herói é de Nível Radiante");
-}
+
